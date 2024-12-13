@@ -13,7 +13,7 @@ header {
 }
 header img {
     margin: 0;
-    max-width: 40%;
+    max-width: 150px;
 }
 nav {
     display: flex;
