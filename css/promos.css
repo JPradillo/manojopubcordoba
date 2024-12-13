@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #bd4750;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;  /* Alinea verticalmente los elementos */
+    justify-content: space-between;  /* Deja espacio entre los elementos */
+}
+
+header img {
+    height: 100px;
+}
+
+header h3 {
+    flex-grow: 1;  /* Hace que el h3 se expanda para ocupar el espacio restante */
+    text-align: center;  /* Centra el texto */
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://source.unsplash.com/1920x1080/?bar,party') no-repeat center center/cover;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.hero h1 {
+    font-size: 3em;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.menu {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.menu h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #29293e;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.menu-item p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.menu-item span {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ff4081;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e1e2f;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: aqua
+}
